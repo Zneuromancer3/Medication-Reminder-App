@@ -137,6 +137,18 @@ flex-direction:row;
 justify-contents:center;
 `}
 `;
+
+export const StyledAddButton = styled.TouchableOpacity`
+  background-color: ${buttons};
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  top: 40%;
+  left: 80%;
+  height: 60px;
+  width: 60px;
+`;
+
 export const ButtonText = styled.Text`
   color: ${primary};
   font-size: 16px;
@@ -178,15 +190,4 @@ export const TextLink = styled.TouchableOpacity`
 export const TextLinkContent = styled.Text`
   color: ${buttons};
   font-size: 15px;
-`;
-
-export const StyledAddButton = styled.TouchableOpacity`
-  background-color: ${buttons};
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  top: 50%;
-  left: 80%;
-  height: 60px;
-  width: 60px;
 `;
